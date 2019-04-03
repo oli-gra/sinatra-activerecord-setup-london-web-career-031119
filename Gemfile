@@ -2,15 +2,16 @@
 source "https://rubygems.org"
 
 gem 'sinatra'
+gem 'rake'
 gem 'thin'
 gem 'require_all'
 
-
 group :development do
 	gem 'shotgun'
+	gem 'activerecord'
 	gem 'pry'
 end
-    
+
 group :test do
   gem 'rspec'
   gem 'capybara'
